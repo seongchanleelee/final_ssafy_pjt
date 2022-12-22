@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Global Resource
+  - basic
+  - rabbit
+  - PinkRabbit
+  - leaf
+  - king
+  - zzol
+  - green
+  - viking
+  - bigking
+  - sprout
+  - basicRed
+  - basicOrange
+  - basicYellow
+  - basicGreen
+  - basicBlue
+  - basicPurple
+  - basicBlack
+  - basicWhite
+  - Slime_king_180
+  - SlimeBody
+  - Slime_rabbit
+  - ScoreCanvas
+  - TimerSlider
+  - GameOverText
+  - TimerText
+  - ScoreOnBanner
+  - SliderFill
+  - ResultButtonF
+  - SttTimerText
+  - ScoreCanvas
+  - ResultButtonS
+  - Stt_result
+  - SttTimerSlider
+  - GameOverText
+  - LastButton
+  - SttGame_Quest
+  - SttSliderFill
+  - Slime_king_180
+  - Slime_rabbit
+  - SlimeBody
+  - Teacher
+  - TimerSlider
+  - TimerText
+  - ScoreOnBanner
+  - SliderFill
+  - Testtt
+  - dog
+  - tiger
+  - failButton
+  - wolf
+  - cat
+  - cow
+  - pig
+  - animalSound
+  - GoHome
+  - SuccessEf
+  - FailEf
+  - lastButton2
+  - StoryLine
+  - StoryButton
+  - StoryBoard
+  - CheckHome
+  - CheckHomeGo
+  - CheckHomeClose
+  - StartGame
+  - detectFail
+  - detectSuccess
+  - help
+  - soundSystem
+  - cube
+  - octopus
+  - kingsay
+  - king1
+  - king2
+  - king3
+  - king4
+  - rabbit1
+  - rabbit2
+  - rabbit3
+  - rabbit4
+  - basic1
+  - basic2
+  - basic3
+  - basic4
+  - zzol1
+  - zzol2
+  - zzol3
+  - zzol4
+  - leaf1
+  - leaf2
+  - leaf3
+  - leaf4
+  - sprout1
+  - sprout2
+  - sprout3
+  - sprout4
+  - viking1
+  - viking2
+  - viking3
+  - viking4
+  - kingsay1
+  - kingsay2
+  - kingsay3
+  - kingsay4
+  - zzolsay
+  - zzolsay1
+  - zzolsay2
+  - zzolsay3
+  - zzolsay4
+  - rabbitsay
+  - rabbitsay1
+  - rabbitsay2
+  - rabbitsay3
+  - rabbitsay4
+  - sproutsay
+  - sproutsay1
+  - sproutsay2
+  - sproutsay3
+  - sproutsay4
+  - leafsay
+  - leafsay1
+  - leafsay2
+  - leafsay3
+  - leafsay4
+  - basicsay
+  - basicsay1
+  - basicsay2
+  - basicsay3
+  - basicsay4
+  - vikingsay
+  - vikingsay1
+  - vikingsay2
+  - vikingsay3
+  - vikingsay4
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - BackgroundImage
+  - Water
+  - UI
+  - camera
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

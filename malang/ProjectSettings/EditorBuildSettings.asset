@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/ConnectGame/scenes/NewStartScene.unity
+    guid: 5de0f7b407926c24b8e8f347a55e5bd2
+  - enabled: 1
+    path: Assets/ConnectGame/scenes/MainScene.unity
+    guid: e39c9016f97a2cd419dbfa7c8049421d
+  - enabled: 1
+    path: Assets/ConnectGame/scenes/Farm.unity
+    guid: d26a371a5eca871488f27bbe97cf7f57
+  - enabled: 1
+    path: Assets/Prologue/Scenes/StartDescriptionScene.unity
+    guid: 7d43f75346a5c754eb1dd5052a464918
+  - enabled: 1
+    path: Assets/ConnectGame/scenes/AniTestScene.unity
+    guid: 084c5579ce18e544982ceb8175545d3b
+  - enabled: 1
+    path: Assets/CountGame/Scenes/MissionDescription_SttGame.unity
+    guid: 5b83b00856cc76b42b6214488098c34f
+  - enabled: 1
+    path: Assets/CountGame/Scenes/SttGame_1.unity
+    guid: f0ec80e77fb36dd4c952d10ac2297550
+  - enabled: 1
+    path: Assets/AnimalQuiz/Scenes/Desc_AnimalQuiz.unity
+    guid: 1f8e55d67b4be8f46bc48f46ec4baebe
+  - enabled: 1
+    path: Assets/AnimalQuiz/Scenes/AnimalQuiz.unity
+    guid: dc1c368ad6fbf3d43b39c8be9ffe2bfe
+  - enabled: 1
+    path: Assets/OcrGame/Scenes/Desc_Ocr.unity
+    guid: 6b51394959a38004b86e4a606536b5a5
+  - enabled: 1
+    path: Assets/ColorGame/Scenes/Desc_Color.unity
+    guid: 3ac747f4857991f4796e8ba6df34e662
+  - enabled: 1
+    path: Assets/ColorGame/Scenes/PickColorScene.unity
+    guid: 7d0c1bd40dc1522499c62c87637c2633
+  - enabled: 1
+    path: Assets/ColorGame/Scenes/HairColorGame.unity
+    guid: 78c1e3728acca8541badce244ab7922b
+  - enabled: 1
+    path: Assets/OcrGame/Scenes/OcrCanvas.unity
+    guid: 9e14bf274e76d39439b88af0eb484d22
+  - enabled: 1
+    path: Assets/MediaPipeUnity/Samples/Scenes/Object Detection/Scene_dst/Desc_Obj.unity
+    guid: 28c1c48d1744f4649bde533c066f94db
+  - enabled: 1
+    path: Assets/MediaPipeUnity/Samples/Scenes/Object Detection/Scene_dst/Object
+      Start Scene.unity
+    guid: fdbd81805a88e8c46801ad556d7e2c68
+  - enabled: 1
+    path: Assets/MediaPipeUnity/Samples/Scenes/Start Scene.unity
+    guid: f7b359c19e6ae2d208e5ca4608b7c0b8
+  - enabled: 1
+    path: Assets/OcrGame/Scenes/OcrSuccess.unity
+    guid: 64fb20d2af6662a429a58bfec2d45288
+  - enabled: 1
+    path: Assets/MediaPipeUnity/Samples/Scenes/Object Detection/Scene_dst/Object
+      Result Scene.unity
+    guid: 420acfc11ca002d47af2b76b92bddc47
+  - enabled: 1
+    path: Assets/Organize Toys/Scenes/Desc_Trash.unity
+    guid: cf56b911b79777943a972441fa163589
+  - enabled: 0
+    path: Assets/Organize Toys/Scenes/NewTrash.unity
+    guid: 537458a9a3f36554b8cd6213c253417c
+  - enabled: 1
+    path: Assets/Organize Toys/Scenes/TrashDrop.unity
+    guid: 9a09a20ef45525a439a515c01314678a
+  - enabled: 1
+    path: Assets/BrushingTeeth/Scenes/Desc_BrushingTeeth.unity
+    guid: 9b23772752b3c384e8f80c690cae4bdd
+  - enabled: 1
+    path: Assets/BrushingTeeth/Scenes/BrushingTeeth.unity
+    guid: 916cce02c86cfa542b2b54c2e12366c4
+  - enabled: 1
+    path: Assets/Organize Toys/Scenes/SuccessScene.unity
+    guid: d4587673d6ea4d944b03efc922996a17
+  - enabled: 1
+    path: Assets/Organize Toys/Scenes/FailScene.unity
+    guid: 96aaf742722d72148a6b441ddae11805
+  - enabled: 1
+    path: Assets/MediaPipeUnity/Samples/Scenes/Object Detection/Scene_dst/Object
+      Detection.unity
+    guid: bb025f2e6cd753596a77b1dd633710ea
+  m_configObjects:
+    AR Foundation RemoteARFoundationRemoteLoaderSettings: {fileID: 11400000, guid: e58b11ac4ff3dfb47bfac90e9aa911ea,
+      type: 2}
+    AR Foundation RemoteARFoundationRemoteSessionRecordsData: {fileID: 11400000, guid: 283933218eccece47b401924207cbd8a,
+      type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 55cb593e365031d4bad99eb71fb9ff5a,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d6b536853a4ec3e408b5d0f5d25762ca,
+      type: 2}

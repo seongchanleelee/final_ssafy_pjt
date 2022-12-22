@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--파비콘 
+      <link rel="shortcut icon" href="http://example.com/myicon.ico" />
+      <link rel="icon" type="image/png" href="http://example.com/image.png" /> 
+  -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- Bootstrap CSS -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+
+    <title>말랑유치원</title>
+  </head>
+
+  <body class="h-100">
+    <script>
+    document.body.addEventListener('click', musicPlay);
+    function musicPlay() {
+      document.getElementById('player').play();
+      document.body.removeEventListener('click', musicPlay);
+    }
+    </script>
+    <audio id="player" loop>
+      <source src="{{ url_for('static', filename='bgm.mp3') }}" type="audio/mp3">
+    </audio>
+    <div class="container h-100">
+      <div class="row h-100">
+        <div class="col-sm-12 my-auto text-align">
+          <!-- <a class="btn btn-success" href="{{url_for('.download_file')}}">Download</a> -->
+
+          <!-- <button type="button" class="btn btn--purple">
+            <span class="btn__txt">Purple button</span>
+            <i class="btn__bg" aria-hidden="true"></i>
+            <i class="btn__bg" aria-hidden="true"></i>
+            <i class="btn__bg" aria-hidden="true"></i>
+            <i class="btn__bg" aria-hidden="true"></i>
+          </button>
+          
+          <button type="button" class="btn btn--green">
+            <span class="btn__txt">Green button</span>
+            <i class="btn__bg" aria-hidden="true"></i>
+            <i class="btn__bg" aria-hidden="true"></i>
+            <i class="btn__bg" aria-hidden="true"></i>
+            <i class="btn__bg" aria-hidden="true"></i>
+          </button>
+          
+          <button type="button" class="btn btn--red">
+            <span class="btn__txt">Red button</span>
+            <i class="btn__bg" aria-hidden="true"></i>
+            <i class="btn__bg" aria-hidden="true"></i>
+            <i class="btn__bg" aria-hidden="true"></i>
+            <i class="btn__bg" aria-hidden="true"></i>
+          </button>
+          
+          <button type="button" class="btn btn--blue">
+            <span class="btn__txt">Blue button</span>
+            <i class="btn__bg" aria-hidden="true"></i>
+            <i class="btn__bg" aria-hidden="true"></i>
+            <i class="btn__bg" aria-hidden="true"></i>
+            <i class="btn__bg" aria-hidden="true"></i>
+          </button>
+           -->
+          <div class="title"><img src="{{ url_for('static', filename='title.png') }}" alt="말랑유치원로고" width="300"></div>
+          <div class="content">
+            <button type="button" class="btn btn--yellow" onclick="location.href='https://drive.google.com/u/0/uc?id=1zNSeoYEgrUYNoIM4A0bGekG9BKJxs9-n&export=download&confirm=t&uuid=0ae1eb53-95fe-44ee-8a6e-4c813d8ebb6a&at=AHV7M3e7c5coFFTEBR6R3IcE7t7q:1669006794192'">
+              <span class="btn__txt">다운로드</span>
+              <i class="btn__bg" aria-hidden="true"></i>
+              <i class="btn__bg" aria-hidden="true"></i>
+              <i class="btn__bg" aria-hidden="true"></i>
+              <i class="btn__bg" aria-hidden="true"></i>
+            </button>
+          </div>
+          <!-- <div class="content"><p>안드로이드 버전</p></div> -->
+        </div>
+     </div>
+    </div>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+  
+  </body>
+</html>
